@@ -1,18 +1,18 @@
-- Criar projeto com vite (React e ts)
-- Criar componente chamado VoteCounter    
-    - receberá 2 props
-        - o nome da opção de voto (string),
-        - e um número inicial de votos (number).
-    - Esse componente ele terá um estado local para armazenar a contagem de votos atual
-        - o valor inicial será o número de votos iniical recebido pela props
-    - Dentro desse componente terá um botão que pegará esse estado e somará mais um que será o de voto
-    - Dentro desse componente terá um botão que pegará esse estado e removerá um que será o de remover voto
-    - Os dois botões ao serem clicados o componente deverá ser atualizada
+x Criar projeto com vite (React e ts)
+x Criar componente chamado VoteCounter    
+    x receberá 2 props
+        x o nome da opção de voto (string),
+        x e um número inicial de votos (number).
+    x Esse componente ele terá um estado local para armazenar a contagem de votos atual
+        x o valor inicial será o número de votos iniical recebido pela props
+    x Dentro desse componente terá um botão que pegará esse estado e somará mais um que será o de voto
+    x Dentro desse componente terá um botão que pegará esse estado e removerá um que será o de remover voto
     - O componente terá de estilo
-        - borda redonda como o de um card
-        - fundo de um cor azulado
-        - o nome recebido ficará no meio na parte de cima
-        - Baixo o número de votos
-        - Abaixo os 2 botões
+        x borda redonda como o de um card
+        x fundo de um cor azulado
+        x o nome recebido ficará no meio na parte de cima
+        x Baixo o número de votos
+        x Abaixo os 2 botões
 - Na tela principal para simular o uso disso, eu crio um array de objeto com essa estrutura {nome: string, votes: number}
 - Faço uma interação com esse array em que ele tem que chamar esse componente passando nome e votes nas respectivas props
+- Os dois botões ao serem clicados o componente deverá ser atualizada
