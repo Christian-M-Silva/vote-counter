@@ -16,7 +16,7 @@ export function VoteCounter({ name, startNumberVote }: CountVoteProp) {
     }
 
     return (
-        <div className="grid grid-flow-row justify-items-center border border-indigo-600 rounded-lg bg-sky-500/50">
+        <div className="grid grid-flow-row justify-items-center rounded-lg bg-sky-500/50">
             <div className="text-3xl">
                 {name}
             </div>
